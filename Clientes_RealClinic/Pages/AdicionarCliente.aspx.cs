@@ -36,7 +36,7 @@ namespace Clientes_RealClinic.UI
 
             clienteBLL.AdicionarCliente(nome, dataNacimento, statusCliente);
             
-            Response.Redirect("~/UI/Default");
+            Response.Redirect("~/Pages/Default");
         }
     }
 }

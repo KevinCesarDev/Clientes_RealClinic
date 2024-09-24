@@ -97,7 +97,7 @@ namespace Clientes_RealClinic
             {
                 int id = Convert.ToInt32(e.CommandArgument);
                 Session["ID"] = id;
-                Response.Redirect("~/UI/EditarCliente");
+                Response.Redirect("~/Pages/EditarCliente");
                 
             }
             else if(e.CommandName == "CliqueExcluirCliente")
@@ -131,7 +131,7 @@ namespace Clientes_RealClinic
 
             clienteBLL.DeletarCliente((int)Session["ID"]);
 
-            Response.Redirect("~/UI/Default");
+            Response.Redirect("~/Pages/Default");
         }
 
         protected void FecharPopup(object sender, EventArgs e)

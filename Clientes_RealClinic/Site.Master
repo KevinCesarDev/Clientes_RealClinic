@@ -42,7 +42,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" runat="server" href="~/UI/AdicionarCliente">Novo Cliente</a>
+                                <a class="nav-link" runat="server" href="~/Pages/AdicionarCliente">Novo Cliente</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" runat="server" href="~/">Buscar</a>
